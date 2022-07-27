@@ -19,7 +19,7 @@ async def main():
     # we already have a reference to the event loop at hand.
     # Otherwise we could have just used "asyncio.create_task()".
     loop.create_task(
-        set_after(fut, 1, '... world'))
+        set_after(fut, 5, '... world'))
 
     print('hello ...')
 
